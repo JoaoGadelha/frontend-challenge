@@ -1,0 +1,64 @@
+ * {
+     margin: 0;
+ }
+
+ .background {
+     background: url('metin2-background.jpg') no-repeat center center/cover;
+     height: 100vh;
+ }
+
+ .box {
+     top: 50%;
+     left: 50%;
+     height: 500px;
+     width: 600px;
+     margin-left: -300px;
+     margin-top: -250px;
+     background: black;
+     opacity: 30%;
+     position: absolute;
+ }
+
+ .logo {
+     background: url('metin2-logo.png') no-repeat center center/cover;
+     display: block;
+     width: 200px;
+     margin: 0 auto;
+     margin-top: 20px;
+ }
+
+ .box-content {
+     border: solid black 3px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     height: 497px;
+     width: 597px;
+     margin-left: -300px;
+     margin-top: -250px;
+ }
+
+ .title {
+     font-family: sans-serif;
+     text-shadow: 0 0 5px red;
+     margin-top: 20px;
+     color: white;
+     font-size: 20px;
+     font-weight: bold;
+     text-align: center;
+ }
+
+ .items-grid {
+     border: solid red 1px;
+     height: 350px;
+     width: 90%;
+     margin: 0 auto;
+     margin-top: 20px;
+     display: grid;
+     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+ }
+
+ .item {
+         border: solid red 1px;
+     
+ }
